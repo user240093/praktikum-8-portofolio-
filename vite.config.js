@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   // Pastikan base sesuai dengan nama repository baru Anda
-  base: '/Praktikum-Tekweb/',
+  base: '/praktikum-8-portofolio-/',
 })
