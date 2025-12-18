@@ -1,9 +1,9 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // Pastikan base sesuai dengan nama repository baru Anda
-  base: '/praktikum-8-portofolio-/',
+  // Pastikan nama ini SAMA PERSIS dengan nama repo GitHub Anda
+  base: '/praktikum-8-portofolio-/', // SESUAIKAN dengan nama repository Anda di GitHub
 })
